@@ -412,4 +412,54 @@
 
 
 
-   //Nested arrays
+//   //Nested arrays
+// const nestedArr = [1,[2,3]];
+// console.log(nestedArr);// output is all 
+// console.log(nestedArr[1]);// output is [2,3]
+// console.log(nestedArr[1][0]);// output: the first element's[1] of the second item[0]
+
+// let numberClusters = [[1,2] , [3,4] , [5,6]];
+// const target = numberClusters[2][1]; 
+// console.log(target);// output is the third element's second item
+
+
+ 
+                     // LOOPS
+//  //Repeating Tasks Manually
+// let vacationSpots = ['Kibuye' , 'Nyungwe park' , 'Akagera Park']
+// console.log(vacationSpots[0]);
+// console.log(vacationSpots[1]);
+// console.log(vacationSpots[2]);
+
+  //For loop
+// for (let counter = 0; counter < 4; counter++) {
+//   console.log(counter);
+// }
+
+// for(let counter=5;counter<11; counter++){
+//   console.log(counter);
+// }
+
+//   //looping in reverse
+// for (let counter = 3; counter >= 0; counter--){
+//   console.log(counter);
+// }
+
+//  //Looping through Arrays
+// const vacationSpots = ['Bali', 'Paris', 'Tulum'];
+// for (i=0 ; i<vacationSpots.length ; i++){
+//   console.log('I would love to visit' + vacationSpots[i]);
+// }
+
+//    //nested loops
+// const myArray =[6,19,20];
+// const yourArray=[19,81,2];
+// for(i=0;i<myArray.length;i++){
+//   for(j=0;j<yourArray.length;j++){
+//     if (myArray[i] === yourArray[j]){
+//       console.log("Both arrays have the number: " + yourArray[j])
+//     }
+//   }}
+
+// const bobsFollowers = ['john','dave','patrick','david'];
+// const tinasFollowers =['patrick', 'john', 'michael'];
