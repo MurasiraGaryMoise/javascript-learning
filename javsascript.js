@@ -379,6 +379,37 @@
 // groceryList.unshift('popcorn');
 // console.log(groceryList);
 
+// // getting elements from a range using slice()
+// const groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+// groceryList.shift();
+// groceryList.unshift('popcorn');
+// console.log(groceryList.slice(2,5)); // outputs items btn indexes 2 and 5
+// console.log(groceryList); //here you will see that the original array is back. slice() doesnt change the elements in an array
+
+// // using .indexOf() in finding a specific element
+// const groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+// groceryList.shift();
+// groceryList.unshift('popcorn');
+// const pastaIndex = groceryList.indexOf('pasta');// returns the index corresponding to pasta which is 4
+// console.log(pastaIndex);
+// console.log(groceryList.indexOf('bread')) // no bread in the array so the ouput will be -1
 
 
 
+    //ARRAYS AND FUNCTIONS
+// const flowers = ['peony', 'daffodil' , 'marigold'];
+// const addFlower = arr => arr.push('lily');
+// addFlower(flowers);
+// console.log(flowers);// Output: ['peony', 'daffodil', 'marigold', 'lily']
+
+// const concept = ['arrays', 'can', 'be', 'mutated'];
+// const changeArr = arr => arr[3]='MUTATED';
+// changeArr(concept);
+// console.log(concept);
+// const removeElement = newArr => newArr.pop();
+// removeElement(concept);
+// console.log(concept);
+
+
+
+   //Nested arrays
